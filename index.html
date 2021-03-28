@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/navegacao_menu.css">
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
@@ -18,24 +19,52 @@
 
     <div class="container">
 
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>Fechar</span>
+        </div>
+
         <header>
 
             <div class="img_wrapper">
                 <img src="img/bg.jpg" alt="">
             </div>
             <div class="banner">
-                <h1>Apresentação de aprendizado <br> em Front End</h1>
+                <div class="titulo">
+                    <h1>Apresentação de aprendizado <br> em Front End</h1>
+                </div>
                 <p>Willian Axl</p>
                 <button>Saiba mais</button>
             </div>
 
-
         </header>
+
+        <div class="side_bar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu_item"><a href="#" class="menu_link">Conhecimento</a></li>
+                    <li class="menu_item"><a href="#" class="menu_link">Home</a></li>
+                    <li class="menu_item"><a href="#" class="menu_link">Projetos</a></li>
+                    <li class="menu_item"><a href="#" class="menu_link">Contato</a></li>
+                    <li class="menu_item"><a href="#" class="menu_link">Orçamento</a></li>
+                    <li class="menu_item"><a href="#" class="menu_link">Agradecimentos</a></li>
+                </ul>
+            </nav>
+            <div class="social_media">
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-github-square"></i></a>
+                <a href="#"><i class="fab fa-whatsapp-square"></i></a>
+            </div>
+        </div>
 
     </div>
 
 
-    <script src="js/script.js"></script>
+
 </body>
+
+<script src="js/script.js"></script>
 
 </html>

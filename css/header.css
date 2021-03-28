@@ -6,6 +6,12 @@
     padding: 0;
 }
 
+:root {
+    --font-primary: "Montserrat", serif;
+    --font-secundary: "Roboto", serif;
+    --font-action: "Josefin", serif;
+}
+
 body {
     font-size: 12px;
 }
@@ -59,29 +65,33 @@ header {
 .banner h1 {
     color: #fff;
     font-size: 2.6rem;
-    font-family: "Montserrat", serif;
+    font-family: var(--font-primary);
     font-weight: 200;
     text-shadow: .2rem .2rem .5px rgba(0, 0, 0, .4);
     margin-bottom: 1.5rem;
     opacity: 0;
-    animation: subir_info 1s 0.5s forwards;
-    -webkit-animation: subir_info 1s 0.5s forwards;
+    animation: subir_info 1.4s 0.5s forwards;
+    -webkit-animation: subir_info 1.4s 0.5s forwards;
+}
+
+.titulo {
+    width: 80%;
 }
 
 .banner p {
-    font-family: "Roboto", serif;
+    font-family: var(--font-secundary);
     font-size: 2rem;
     color: #fff;
     text-shadow: .1rem .1rem rgba(0, 0, 0, .6);
     font-weight: 350;
     margin-bottom: 1.4em;
     opacity: 0;
-    animation: subir_info 1s 0.7s forwards;
-    -webkit-animation: subir_info 1s 0.7s forwards;
+    animation: subir_info 1.4s 0.7s forwards;
+    -webkit-animation: subir_info 1.4s 0.7s forwards;
 }
 
 .banner button {
-    font-family: "Josefin", serif;
+    font-family: var(--font-action);
     color: #fff;
     opacity: 0;
     background: #536976;
@@ -101,8 +111,8 @@ header {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     cursor: pointer;
-    animation: subir_info 1s 0.9s forwards;
-    -webkit-animation: subir_info 1s 0.9s forwards;
+    animation: subir_info 1.4s 0.9s forwards;
+    -webkit-animation: subir_info 1.4s 0.9s forwards;
 }
 
 .banner button:hover {

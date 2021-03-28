@@ -1,0 +1,219 @@
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .menu_link1,
+        .menu_link2,
+        .menu_link3,
+        .menu_link4,
+        .menu_link5,
+        .menu_link6 {
+            font-family: var(--font-action);
+            color: rgb(192, 180, 180);
+            font-size: 2rem;
+            letter-spacing: .1rem;
+            transition: color 1s;
+            -webkit-transition: color 1s;
+            -moz-transition: color 1s;
+            -ms-transition: color 1s;
+            -o-transition: color 1s;
+        }
+        
+        .menu_link1:hover {
+            color: white;
+            background-color: #2e0247;
+            width: 100%;
+            animation: shandar 1s infinite alternate;
+            -webkit-animation: shandar 1s infinite alternate;
+            border-radius: 10%;
+            -webkit-border-radius: 10%;
+            -moz-border-radius: 10%;
+            -ms-border-radius: 10%;
+            -o-border-radius: 10%;
+        }
+        
+        .menu_link2:hover {
+            color: white;
+            background-color: #1832f5;
+            width: 100%;
+            animation: asgard 1s infinite alternate;
+            -webkit-animation: asgard 1s infinite alternate;
+            border-radius: 10%;
+            -webkit-border-radius: 10%;
+            -moz-border-radius: 10%;
+            -ms-border-radius: 10%;
+            -o-border-radius: 10%;
+        }
+        
+        .menu_link3:hover {
+            color: white;
+            background-color: #fd0f0fea;
+            width: 100%;
+            animation: colecionador 1s infinite alternate;
+            -webkit-animation: colecionador 1s infinite alternate;
+            border-radius: 10%;
+            -webkit-border-radius: 10%;
+            -moz-border-radius: 10%;
+            -ms-border-radius: 10%;
+            -o-border-radius: 10%;
+        }
+        
+        .menu_link4:hover {
+            color: white;
+            background-color: #ff9914;
+            width: 100%;
+            animation: vormir 1s infinite alternate;
+            -webkit-animation: vormir 1s infinite alternate;
+            border-radius: 10%;
+            -webkit-border-radius: 10%;
+            -moz-border-radius: 10%;
+            -ms-border-radius: 10%;
+            -o-border-radius: 10%;
+        }
+        
+        .menu_link5:hover {
+            color: white;
+            background-color: #0aff0a;
+            width: 100%;
+            animation: tita 1s infinite alternate;
+            -webkit-animation: tita 1s infinite alternate;
+            border-radius: 10%;
+            -webkit-border-radius: 10%;
+            -moz-border-radius: 10%;
+            -ms-border-radius: 10%;
+            -o-border-radius: 10%;
+        }
+        
+        .menu_link6:hover {
+            color: white;
+            background-color: #e4f315;
+            width: 100%;
+            animation: wankanda 1s infinite alternate;
+            -webkit-animation: wankanda 1s infinite alternate;
+            border-radius: 10%;
+            -webkit-border-radius: 10%;
+            -moz-border-radius: 10%;
+            -ms-border-radius: 10%;
+            -o-border-radius: 10%;
+        }
+        
+        @keyframes poder {
+            from {
+                opacity: 0.3;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes shandar {
+            from {
+                filter: none;
+                -webkit-filter: none;
+            }
+            to {
+                filter: drop-shadow(0 0 6px purple);
+                -webkit-filter: drop-shadow(0 0 6px purple);
+            }
+        }
+        
+        @keyframes espaço {
+            from {
+                opacity: 0.3;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes asgard {
+            from {
+                filter: none;
+                -webkit-filter: none;
+            }
+            to {
+                filter: drop-shadow(0 0 6px #1020A0);
+                -webkit-filter: drop-shadow(0 0 6px #1020A0);
+            }
+        }
+        
+        @keyframes realidade {
+            from {
+                opacity: 0.3;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes colecionador {
+            from {
+                filter: none;
+                -webkit-filter: none;
+            }
+            to {
+                filter: drop-shadow(0 0 6px #362134);
+                -webkit-filter: drop-shadow(0 0 6px #362134);
+            }
+        }
+        
+        @keyframes alma {
+            from {
+                opacity: 0.3;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes vormir {
+            from {
+                filter: none;
+                -webkit-filter: none;
+            }
+            to {
+                filter: drop-shadow(0 0 6px #271D22);
+                -webkit-filter: drop-shadow(0 0 6px #271D22);
+            }
+        }
+        
+        @keyframes tempo {
+            from {
+                opacity: 0.3;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes tita {
+            from {
+                filter: none;
+                -webkit-filter: none;
+            }
+            to {
+                filter: drop-shadow(0 0 6px #2A2B2A);
+                -webkit-filter: drop-shadow(0 0 6px #2A2B2A);
+            }
+        }
+        
+        @keyframes mente {
+            from {
+                opacity: 0.3;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes wankanda {
+            from {
+                filter: none;
+                -webkit-filter: none;
+            }
+            to {
+                filter: drop-shadow(0 0 6px #B0B1A3);
+                -webkit-filter: drop-shadow(0 0 6px #B0B1A3);
+            }
+        }
