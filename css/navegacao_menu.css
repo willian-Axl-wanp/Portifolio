@@ -19,8 +19,6 @@ body {
 }
 
 .hamburguer {
-    /*background-color: red;
-    */
     width: 2rem;
     height: 2rem;
     position: fixed;
@@ -48,14 +46,16 @@ body {
 }
 
 .hamburguer span {
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
     position: absolute;
     left: 3rem;
     height: 2rem;
-    width: 4rem;
+    width: 5.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3E4C60;
+    background-color: rgb(32, 32, 187);
     color: #fff;
     font-family: var(--font-action);
     visibility: hidden;
@@ -64,7 +64,7 @@ body {
 .hamburguer span::before {
     content: "";
     position: absolute;
-    border-right: .5rem solid #3E4C60;
+    border-right: .5rem solid rgb(32, 32, 187);
     border-left: .5rem solid transparent;
     border-top: .5rem solid transparent;
     border-bottom: .5rem solid transparent;
@@ -112,10 +112,11 @@ body {
     z-index: 999;
     width: 20rem;
     height: 100vh;
-    background-color: rgba(245, 6, 6, 0.774);
+    background-color: rgba(40, 50, 76, 0.9);
     position: fixed;
     top: 0;
     right: -21rem;
+    opacity: 1;
     transition: all 1.8s;
     -webkit-transition: all 1.8s;
     -moz-transition: all 1.8s;
