@@ -14,6 +14,10 @@
     --font-action: "Josefin", serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 18px;
 }
@@ -36,7 +40,7 @@ body {
     font-size: 2.7rem;
     color: rgb(56, 55, 55);
     border-bottom: 4px solid #4E6270;
-    margin-top: 1.1rem;
+    margin-top: 0.9rem;
 }
 
 .sessao-conhecimentos {
@@ -54,23 +58,22 @@ body {
     display: flex;
     align-items: center;
     color: rgb(56, 55, 55);
-    margin-top: 3.3rem;
+    margin-top: 2rem;
 }
 
 .conhecimento-header i {
-    font-size: 3.8rem;
+    font-size: 3rem;
 }
 
 .conhecimento-header h3 {
     font-family: var(--font-secundary);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding-left: 1rem;
 }
 
 .conhecimento-text {
     font-family: var(--font-secundary);
-    margin-top: 1rem;
-    font-size: 1rem;
+    margin-top: 0.8rem;
 }
 
 .conhecimento-img-wrapper {

@@ -12,6 +12,10 @@
     --font-action: "Josefin", serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 12px;
 }

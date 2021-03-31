@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./css/conhecimento.css">
     <link rel="stylesheet" href="./css/projeto.css">
     <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./css/orcamento.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
@@ -30,7 +32,7 @@
         </div>
         <!--End .hamburguer-->
 
-        <header>
+        <header id="home">
 
             <div class="img-wrapper">
                 <img src="img/bg.jpg" alt="">
@@ -51,11 +53,11 @@
         <aside class="side-bar">
             <nav>
                 <ul class="menu">
-                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Conhecimento</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
+                    <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li>
                     <!--<li class="menu-item"><a href="#" class="menu-link">Agradecimentos</a></li>-->
                 </ul>
                 <!--End .menu-->
@@ -70,7 +72,7 @@
         </aside>
         <!--End .side_bar-->
 
-        <section class="sessao-conhecimento">
+        <section class="sessao-conhecimento" id="conhecimentos">
             <div class="sessao-header">
                 <h1>Conhecimentos</h1>
             </div>
@@ -153,7 +155,7 @@
         </section>
         <!--End .sessao-conhecimento-->
 
-        <section class="sessao-projetos">
+        <section class="sessao-projetos" id="projetos">
             <div class="sessao-header s">
                 <h1>Projetos</h1>
             </div>
@@ -209,7 +211,7 @@
         </section>
         <!--End .sessao-projetos-->
 
-        <section class="sessao-contato">
+        <section class="sessao-contato" id="contato">
             <div class="contato-wrapper">
                 <div class="contato-left"></div>
                 <!--End .contato-left-->
@@ -241,6 +243,59 @@
         </section>
         <!--End .sessao-contato-->
 
+        <section class="sessao-orcamento" id="orcamento">
+            <div class="orcamento-wrapper">
+                <h1>Faça um orcamento</h1>
+                <form action="">
+                    <label for="qtde">Qtde de páginas</label>
+                    <input type="number" min="1" name="qtde" id="qtde">
+                    <label for="js">Preciso de um script JS</label>
+                    <input type="checkbox" name="js" id="js">
+                    <label>Layout</label>
+                    <div class="group-layout">
+                        <div>
+                            <input type="radio" name="layout" id="layout-sim">
+                            <label for="layout-sim">Preciso de um layout</label>
+                        </div>
+                        <!--End .-->
+                        <div>
+                            <input type="radio" name="layout" id="layout-nao">
+                            <label for="layout-nao">Já tenho um layout</label>
+                        </div>
+                        <!--End .-->
+                    </div>
+                    <label for="prazo">Prazo</label>
+                    <input type="range" name="prazo" id="prazo">
+                    <button type="submit" class="btn btn-orcamento">Enviar</button>
+                </form>
+                <!--End form-->
+            </div>
+            <!--End .orcamento-wrapper-->
+        </section>
+        <!--End .orcamento-->
+        <footer>
+            <div class="footer-content">
+                <p>
+                    copyright &copy: 2021, W.AN.P - Todos os direitos reservados
+                </p>
+                <!--End p-->
+                <div class="social-list">
+                    <ul>
+                        <li class="li"><a href=""><i class="fab fa-facebook"></i></a></li>
+                        <li class="li"><a href=""><i class="fab fa-whatsapp"></i></a></li>
+                        <li class="li"><a href=""><i class="fab fa-github"></i></a></li>
+                    </ul>
+                    <!--End ul-->
+                </div>
+                <!--End .social-list-->
+            </div>
+            <!--End .footer-content-->
+        </footer>
+        <!--end footer-->
+        <a href="#home" id="link-topo">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+        <!--End i-->
     </div>
     <!--End .container-->
 
