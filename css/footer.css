@@ -99,8 +99,5 @@ i:hover {
     -ms-border-radius: 6%;
     -o-border-radius: 6%;
     box-shadow: 1px 1px white;
-}
-
-.abrir-menu.side-bar#link-topo {
-    visibility: hidden;
+    color: #fff;
 }
